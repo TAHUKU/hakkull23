@@ -1,0 +1,32 @@
+import os, time, sys
+# Studi Kasus 1
+namadepan = str(input("Masukkan Nama Depan Anda: "))
+namabelakang = str(input("Masukkan Nama Belakang Anda: "))
+namadepan_upper = namadepan.upper()
+namadepan_lower = namadepan.lower()
+namabelakang_upper = namabelakang.upper()
+namabelakang_lower = namabelakang.lower()
+time.sleep(2)
+os.system('cls' if os.name == 'nt' else 'clear')
+time.sleep(2)
+print(f"Nama Depan Anda (Kapital): {namadepan_upper}")
+print(f"Nama Belakang Anda (Kapital): {namabelakang_upper} ")
+time.sleep(2)
+print(f"Nama Depan Anda: {namadepan_lower}")
+print(f"Nama Belakang Anda: {namabelakang_lower} ")
+time.sleep(2)
+namalengkap = "Nama Anda: " + namadepan + namabelakang
+print(namalengkap)
+print(f"Panjang Total Nama: {len(namadepan + namabelakang)} Huruf")
+time.sleep(2)
+os.system('cls' if os.name == 'nt' else 'clear')
+time.sleep(2)
+# Studi Kasus 2
+kalimat = "Belajar Python itu menyenangkan"
+print(f"kalimat")
+print(f"Jumlah Huruf dalam Kalimat: {len(kalimat)}")
+print(f"{kalimat[8:14]} Index Ke: 8 - 14 ")
+kalimat_baru = kalimat.replace("Python", "Pemrograman Python")
+print(f"Hasil Penggantian: {kalimat_baru}")
+jumlah_a = kalimat_baru.count("a")
+print(f"Jumlah A: {jumlah_a}")
