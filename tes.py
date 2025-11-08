@@ -1,1 +1,1 @@
-print("tes github")
+print("tes pertama")
