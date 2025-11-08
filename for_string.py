@@ -1,4 +1,4 @@
-nama = "hakkull"
+nama = "sayanggggggggggg"
 for huruf in nama:
     print(huruf)
 
