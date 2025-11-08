@@ -6,7 +6,7 @@ while angka <= 5:
 
 #Input sampai benar
 password = ""
-while password != "tahuku23":
+while password != "siapa dia":
     password = input("masukan password: ")
     if password != "tahuku23":
         print("pswd salah, try again")
